@@ -12,13 +12,18 @@ class Gui(Ui_Dialog):
         self.setupUi(dialog)
 
         self.dialog = dialog
-        self.frame.setStyleSheet("background-image:url('bg.png');background-repeat:no-repeat;")
+        self.frame.setStyleSheet(
+            "background-image:url('bg.png'); background-color: transparent; background-repeat:no-repeat;")
         '''
         self.bt_ok.clicked.connect(self.handlerbt)
         self.bt_ok.setStyleSheet(
             "QPushButton{background-image:url('456.png');background-position:center;margin:1px;border-style:outset;}QPushButton:hover{}")
             self.pl_label.setStyleSheet("* { background-color: rgba(0, 0, 0, 0); }")
         '''
+        self.play_ai1.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
+        self.play_ai2.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
+        self.play_ai3.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
+        self.play_pl.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
         self.ai1_crd_01.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
         self.ai1_crd_02.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
         self.ai1_crd_03.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
