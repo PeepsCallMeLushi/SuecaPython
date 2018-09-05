@@ -77,6 +77,9 @@
     <enum>QFrame::Raised</enum>
    </property>
    <widget class="QPushButton" name="pl_bt_01">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -113,10 +116,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_02">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -153,10 +159,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_03">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -193,10 +202,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_04">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -233,10 +245,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_05">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -273,10 +288,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_06">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -313,10 +331,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_07">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -353,10 +374,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_08">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -393,7 +417,7 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_09">
@@ -436,10 +460,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pl_bt_10">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -476,10 +503,13 @@
      <string>PushButton</string>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_01">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -513,13 +543,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_02">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -553,13 +586,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_03">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -593,13 +629,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_04">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -633,13 +672,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_05">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -673,13 +715,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_06">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -713,13 +758,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_07">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -753,13 +801,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_08">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -793,13 +844,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_09">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -833,13 +887,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai1_crd_10">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -873,13 +930,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_01">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -913,13 +973,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_02">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -953,13 +1016,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_03">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -993,13 +1059,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_04">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1033,13 +1102,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_05">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1073,13 +1145,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_06">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1113,13 +1188,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_07">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1153,13 +1231,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_08">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1193,13 +1274,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_09">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1233,13 +1317,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai3_crd_10">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>730</x>
@@ -1273,13 +1360,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_01">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -1313,13 +1403,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_02">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -1353,13 +1446,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_03">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>520</x>
@@ -1393,13 +1489,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_04">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -1433,13 +1532,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_05">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -1473,13 +1575,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_06">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -1513,13 +1618,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_07">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>320</x>
@@ -1553,13 +1661,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_08">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -1593,13 +1704,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_09">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -1633,13 +1747,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="ai2_bt_10">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -1673,13 +1790,16 @@
      </size>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string/>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="pl_label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -1723,8 +1843,173 @@
       <kerning>true</kerning>
      </font>
     </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
     <property name="text">
-     <string>Player</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Player&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ai1_lablel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>155</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Dário&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ai3_lablel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>155</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Sanguinetti&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ai2_label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Nuno&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
