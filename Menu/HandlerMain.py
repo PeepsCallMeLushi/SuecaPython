@@ -20,10 +20,11 @@ class Gui(Ui_Dialog):
             "QPushButton{background-image:url('456.png');background-position:center;margin:1px;border-style:outset;}QPushButton:hover{}")
             self.pl_label.setStyleSheet("* { background-color: rgba(0, 0, 0, 0); }")
         '''
+        self.pl_label.setStyleSheet("QLabel{background-image:url('playerlabelbg.png');}")
         self.play_ai1.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
         self.play_ai2.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
         self.play_ai3.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
-        self.play_pl.setStyleSheet("QPushButton{background-image:url('cardbackv.png');}")
+        self.play_pl.setStyleSheet("QPushButton{background-image:url('playerchoicebg.png');}")
         self.ai1_crd_01.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
         self.ai1_crd_02.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
         self.ai1_crd_03.setStyleSheet("QPushButton{background-image:url('cardbackh1.png');}")
