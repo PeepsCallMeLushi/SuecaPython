@@ -2,9 +2,16 @@
 
 class Player (object):
     def __init__(self):
+        self.pl = 0
         self.hand = []
         self.takes = []
         self.points = 0
+
+    def getID (self):
+        return self.pl
+
+    def setID (self, pl):
+        self.pl = pl
 
     def getHand (self):
         return self.hand
