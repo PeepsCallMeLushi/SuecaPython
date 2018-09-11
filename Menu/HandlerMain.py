@@ -119,7 +119,7 @@ class Gui(Ui_Dialog):
         self.pl_bt_09.setStyleSheet(
             "QPushButton{background-image:url('resources/cards/" + self.pl.hand[8].getFigure() + self.pl.hand[
                 8].getHouse() + ".png');}")
-        self.pl_bt_10.setStyleSheet( 
+        self.pl_bt_10.setStyleSheet(
             "QPushButton{background-image:url('resources/cards/" + self.pl.hand[9].getFigure() + self.pl.hand[
                 9].getHouse() + ".png');}")
 

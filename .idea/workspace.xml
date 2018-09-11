@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0fa9396-b1ee-45d4-9f3f-5a3284aeb85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Menu/Classes/HandlerGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Menu/Classes/card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/Classes/Model/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/Classes/Model/card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/Classes/Model/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Classes/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu/HandlerMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/HandlerMain.py" afterDir="false" />
-    </list>
+    <list default="true" id="a0fa9396-b1ee-45d4-9f3f-5a3284aeb85d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,7 @@
     <session id="1491367408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="3" />
@@ -62,13 +54,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="py" value="5359" />
+          <entry key="py" value="5360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="5359" />
+          <entry key="Python" value="5360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menu/HandlerMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
+            <state relative-caret-position="221">
+              <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -170,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -382,7 +374,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -450,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Menu/HandlerMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="221">
+          <caret line="121" column="36" selection-start-line="121" selection-start-column="36" selection-end-line="121" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
