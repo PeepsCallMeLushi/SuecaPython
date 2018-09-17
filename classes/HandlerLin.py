@@ -4,9 +4,18 @@ from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
 from classes import HandlerGame as hg
 import time
 from visuals.Main import *
+import platform
+
+
 
 #Resolução do caminho para nunca se perder
-directions = os.path.dirname(os.path.realpath(__file__)).split("/")
+
+if platform.system() == "Linux" or platform.system() == "Darwin":
+    simbolico = "/"
+elif platform.system() == "Windows":
+    simbolico = "\\"
+
+directions = os.path.dirname(os.path.realpath(__file__)).split(simbolico)
 dire = ""
 for i in range(len(directions)-1):
     dire += directions[i]+"/"
