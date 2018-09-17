@@ -78,7 +78,7 @@
    </property>
    <widget class="QPushButton" name="pl_bt_01">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -121,7 +121,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_02">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -164,7 +164,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_03">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -207,7 +207,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_04">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -250,7 +250,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_05">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -293,7 +293,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_06">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -336,7 +336,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_07">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -379,7 +379,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_08">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -422,7 +422,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_09">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -465,7 +465,7 @@
    </widget>
    <widget class="QPushButton" name="pl_bt_10">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
@@ -2182,6 +2182,405 @@
     </property>
     <property name="flat">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="allyTeam_label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>600</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>300</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>300</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Ally Team Points:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="enemyTeam_label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>650</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>300</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>300</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Enemy Team Points:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="atPoints">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>600</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="etPoints">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>650</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="powerHouseLabel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>600</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>150</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Power House&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="powerHouseIcon">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>650</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>100</width>
+      <height>150</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>100</width>
+      <height>150</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="wwcd">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="lldl">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1280</width>
+      <height>720</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
     </property>
    </widget>
   </widget>
