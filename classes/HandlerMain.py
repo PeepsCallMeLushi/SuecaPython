@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QDialog
+from PyQt5.QtWidgets import QApplication, QDialog, QMainWindow
 from classes import HandlerGame as hg
 import time
 from visuals.Main import *
@@ -23,7 +23,6 @@ class Gui(Ui_Dialog):
     def __init__(self, dialog):
         Ui_Dialog.__init__(self)
         self.setupUi(dialog)
-
         self.dialog = dialog
         self.frame.setStyleSheet(
             "background-image:url('resources/backgrounds/bg.png'); background-color: transparent; background-repeat:no-repeat;")
@@ -464,5 +463,7 @@ class Gui(Ui_Dialog):
 app = QApplication(sys.argv)
 dialog = QDialog()
 prog = Gui(dialog)
+window = QMainWindow()
+dialog.setWindowTitle("Sueca Python")
 dialog.show()
 sys.exit(app.exec_())
