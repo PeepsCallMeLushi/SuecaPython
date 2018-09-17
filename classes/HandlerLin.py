@@ -5,9 +5,14 @@ from classes import HandlerGame as hg
 import time
 from visuals.Main import *
 
-directions = os.path.dirname(os.path.realpath(__file__))
-directions = directions[:-7]
-'''Thread feita para um ciclo ifinito poder correr'''
+#Resolução do caminho para nunca se perder
+directions = os.path.dirname(os.path.realpath(__file__)).split("/")
+dire = ""
+for i in range(len(directions)-1):
+    dire += directions[i]+"/"
+directions=dire
+
+#Thread feita para um ciclo ifinito poder correr
 class myFirstThread(QtCore.QThread):
     def __init__(self, funcao, *args):
         QtCore.QThread.__init__(self)
@@ -21,7 +26,7 @@ class myFirstThread(QtCore.QThread):
         self.funcao(*self.args)
         return
 
-'''Main'''
+#Main
 class Gui(Ui_Dialog):
     def __init__(self, dialog):
         Ui_Dialog.__init__(self)
@@ -67,11 +72,11 @@ class Gui(Ui_Dialog):
         self.pl_bt_09.clicked.connect(self.playerChoice)
         self.pl_bt_10.clicked.connect(self.playerChoice)
 
-        '''invoca a thread com a função e inicia a mesma'''
+        #invoca a thread com a função e inicia a mesma
         self.genericThread = myFirstThread(self.gameMechs,self.availCards)
         self.genericThread.start()
 
-    '''Função que faz o jogo correr a partir das outras funções'''
+    #Função que faz o jogo correr a partir das outras funções
     def gameMechs(self, a):
         while a != 0:
             playerID = hg.Match.players[self.counter].getID()
@@ -82,7 +87,7 @@ class Gui(Ui_Dialog):
             if self.counter == 4:
                 self.roundEnd()
 
-    '''Ciclo de decisão dos bots'''
+    #Ciclo de decisão dos bots
     def botDecisionMaking(self):
         time.sleep(1)
         bot = hg.Match.players[self.counter]
@@ -118,7 +123,7 @@ class Gui(Ui_Dialog):
         hg.cardSort(self.counter, bestCard)
         self.counter = self.counter + 1
 
-    '''Gestão dos visais do bot 3'''
+    #Gestão dos visais do bot 3
     def ai3Management(self, a, b):
         self.play_ai3.setStyleSheet(
             "QPushButton{background-image:url('"+directions+"resources/cards/" + a.hand[b].getFigure() + a.hand[
@@ -144,7 +149,7 @@ class Gui(Ui_Dialog):
         elif self.ai3_crd_01.isVisible():
             self.ai3_crd_01.hide()
 
-    '''Gestão dos visais do bot 2'''
+    #Gestão dos visais do bot 2
     def ai2Management(self,a,b):
         self.play_ai2.setStyleSheet(
             "QPushButton{background-image:url('"+directions+"resources/cards/" + a.hand[b].getFigure() + a.hand[
@@ -170,7 +175,7 @@ class Gui(Ui_Dialog):
         elif self.ai2_bt_01.isVisible():
             self.ai2_bt_01.hide()
 
-    '''Gestão dos visais do bot 1'''
+    #Gestão dos visais do bot 1
     def ai1Management(self,a,b):
         self.play_ai1.setStyleSheet(
             "QPushButton{background-image:url('"+directions+"resources/cards/" + a.hand[b].getFigure() + a.hand[
@@ -196,7 +201,7 @@ class Gui(Ui_Dialog):
         elif self.ai1_crd_01.isVisible():
             self.ai1_crd_01.hide()
 
-    '''Carregamento dos visais do jogo'''
+    #Carregamento dos visais do jogo
     def loadVisuals(self):
         self.wwcd.setHidden(True)
         self.lldl.setHidden(True)
@@ -250,7 +255,7 @@ class Gui(Ui_Dialog):
         self.ai3_crd_09.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
         self.ai3_crd_10.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
 
-    '''Carregamento dos visais do jogador'''
+    #Carregamento dos visais do jogador
     def loadPlayerVisuals(self):
         for i in range(4):
             if hg.Match.players[i].getID()==1:
@@ -287,7 +292,7 @@ class Gui(Ui_Dialog):
             "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[9].getFigure() + human.hand[
                 9].getHouse() + ".png');}")
 
-    '''Série de funões para dizer ao jogo que butão foi carregado'''
+    #Série de funões para dizer ao jogo que butão foi carregado
     def btn1 (self):
         self.clicked=0
 
@@ -318,7 +323,7 @@ class Gui(Ui_Dialog):
     def btn10 (self):
         self.clicked=9
 
-    '''Reabilita os botões do jogador face o que este pode ou não jogar para evitar renuncia'''
+    #Reabilita os botões do jogador face o que este pode ou não jogar para evitar renuncia
     def enablePlayerButtons(self):
         playHouseInHand = 0
 
@@ -378,7 +383,7 @@ class Gui(Ui_Dialog):
                     elif i == 9:
                         self.pl_bt_10.setDisabled(False)
 
-    '''Eventos depois de o jogador escolher a carta'''
+    #Eventos depois de o jogador escolher a carta
     def playerChoice(self):
 
         self.pl_bt_01.setDisabled(True)
@@ -432,7 +437,7 @@ class Gui(Ui_Dialog):
         self.loadPlayerVisuals()
         self.counter = self.counter + 1
 
-    ''' Ciclo de acontecimentos depois de os quatro jogadores terem jogado'''
+    #Ciclo de acontecimentos depois de os quatro jogadores terem jogado
     def roundEnd(self):
         allyTeam = 0
         enemyTeam = 0
