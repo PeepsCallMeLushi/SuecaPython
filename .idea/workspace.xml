@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d96f1a-a27d-4563-acf3-34e9878c4f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classes/HandlerLin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launcherLin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/HandlerMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HandlerWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/launcherWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/HandlerLin.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HandlerLin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/HandlerLin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="30" column="59" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="59" />
+            <state relative-caret-position="505">
+              <caret line="471" column="21" lean-forward="true" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -200,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.launcherWin">
     <configuration name="launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SuecaPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,8 +217,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="launcherWin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SuecaPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launcherWin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.launcher" />
+      <item itemvalue="Python.launcherWin" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.launcherWin" />
         <item itemvalue="Python.launcher" />
       </list>
     </recent_temporary>
@@ -250,7 +271,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/HandlerLin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="59" />
+        <state relative-caret-position="505">
+          <caret line="471" column="21" lean-forward="true" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

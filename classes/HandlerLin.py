@@ -230,25 +230,25 @@ class Gui(Ui_Dialog):
         self.ai1_crd_09.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
         self.ai1_crd_10.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
         self.ai2_bt_01.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
-        self.ai2_bt_02.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_03.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_04.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_05.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_06.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_07.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_08.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_09.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai2_bt_10.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackv.png');}")
-        self.ai3_crd_01.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_02.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_03.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_04.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_05.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_06.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_07.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_08.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_09.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
-        self.ai3_crd_10.setStyleSheet("QPushButton{background-image:url('"+directions+"backgrounds/cardbackh1.png');}")
+        self.ai2_bt_02.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_03.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_04.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_05.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_06.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_07.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_08.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_09.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai2_bt_10.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackv.png');}")
+        self.ai3_crd_01.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_02.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_03.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_04.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_05.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_06.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_07.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_08.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_09.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
+        self.ai3_crd_10.setStyleSheet("QPushButton{background-image:url('"+directions+"resources/backgrounds/cardbackh1.png');}")
 
     '''Carregamento dos visais do jogador'''
     def loadPlayerVisuals(self):
@@ -257,34 +257,34 @@ class Gui(Ui_Dialog):
                 human = hg.Match.players[i]
 
         self.pl_bt_01.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[0].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[0].getFigure() + human.hand[
                 0].getHouse() + ".png');}")
         self.pl_bt_02.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[1].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[1].getFigure() + human.hand[
                 1].getHouse() + ".png');}")
         self.pl_bt_03.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[2].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[2].getFigure() + human.hand[
                 2].getHouse() + ".png');}")
         self.pl_bt_04.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[3].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[3].getFigure() + human.hand[
                 3].getHouse() + ".png');}")
         self.pl_bt_05.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[4].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[4].getFigure() + human.hand[
                 4].getHouse() + ".png');}")
         self.pl_bt_06.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[5].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[5].getFigure() + human.hand[
                 5].getHouse() + ".png');}")
         self.pl_bt_07.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[6].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[6].getFigure() + human.hand[
                 6].getHouse() + ".png');}")
         self.pl_bt_08.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[7].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[7].getFigure() + human.hand[
                 7].getHouse() + ".png');}")
         self.pl_bt_09.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[8].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[8].getFigure() + human.hand[
                 8].getHouse() + ".png');}")
         self.pl_bt_10.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[9].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[9].getFigure() + human.hand[
                 9].getHouse() + ".png');}")
 
     '''Série de funões para dizer ao jogo que butão foi carregado'''
@@ -421,7 +421,7 @@ class Gui(Ui_Dialog):
             self.pl_bt_01.hide()
 
         self.play_pl.setStyleSheet(
-            "QPushButton{background-image:url('"+directions+"cards/" + human.hand[self.clicked].getFigure() + human.hand[
+            "QPushButton{background-image:url('"+directions+"resources/cards/" + human.hand[self.clicked].getFigure() + human.hand[
                 self.clicked].getHouse() + ".png');}")
 
         if self.counter == 0:
