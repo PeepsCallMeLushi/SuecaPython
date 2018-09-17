@@ -2,21 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39d96f1a-a27d-4563-acf3-34e9878c4f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SuecaPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SuecaPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/HandlerMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/HandlerMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/ai1bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/ai2bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/ai3bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/atplbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/dariobg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/etpbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/etplbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/nunobg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/playerchoicebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/playerlabelbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/backgrounds/sanguibg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/2c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/2c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/2d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/2d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/2h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/2h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/2s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/2s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/3c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/3c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/3d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/3d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/3h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/3h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/3s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/3s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/4c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/4c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/4d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/4d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/4h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/4h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/4s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/4s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/5c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/5c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/5d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/5d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/5h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/5h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/5s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/5s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/6c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/6c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/6d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/6d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/6h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/6h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/6s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/6s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/7c.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/7c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/7d.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/7d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/7h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/7h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/7s.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/7s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/ac.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/ac.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/ad.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/ad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/ah.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/ah.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/as.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/as.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/jc.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/jc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/jd.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/jd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/jh.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/jh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/js.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/kc.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/kc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/kd.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/kd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/kh.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/kh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/ks.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/ks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/qc.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/qc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/qd.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/qd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/qh.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/qh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cards/qs.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cards/qs.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +54,10 @@
     <session id="1491367408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,7 +83,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/launcher.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,15 +107,13 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visuals/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/HandlerGame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
+            <state>
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -216,13 +242,9 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
@@ -230,6 +252,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,13 +273,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/visuals/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/HandlerGame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
+        <state>
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
