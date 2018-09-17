@@ -15,11 +15,10 @@ Alternatively to install `PyQt5` on Linux, open your CLI and run:
 
 ### Project Launch
 #### On PyCharm
-To launch the project run the file `launcherWin.py` on PyCharm
+To launch the project run the file `launcher.py` on PyCharm
 
 #### On Linux
 To launch the project run it with your python3:  
-`python3 /path/to/file/laucherLin.py`
-
+`python3 /path/to/file/laucher.py`
 
 **NOTE:** your file path will most likely be `~/Downloads/SuecaPython-master`
