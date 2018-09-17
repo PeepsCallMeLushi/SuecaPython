@@ -1,4 +1,3 @@
-# SuecaPython
-Sueca Para o Dário
+# Sueca Python
 
-`C:\Users\Trainee\Documents\GitHub\Sueca\Menu> C:\Users\Trainee\Documents\GitHub\Sueca\venv\Scripts\pyuic5.exe Main.ui -o Main.py`
+## You'll have to install PyQt 5 in order for this project to work
